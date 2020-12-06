@@ -2,18 +2,20 @@
 
 int main()
 {
-  int n;
-  printf("Informe a qunatidade de valores: \n");
-  scanf("%d", &n);
+  int studentQuantity;
+  printf("Informe a quantidade de alunos: \n");
+  scanf("%d", &studentQuantity);
+  char students[studentQuantity][1000];
 
-  int valores[n];
-  for (int i = 0; i < n; i++)
+  for (int i = 0; i < studentQuantity; i++)
   {
-    scanf("%d", &valores[i]);
+    printf("Informe o nome do aluno: \n");
+    scanf("%s", students[i]);
   }
 
-  for (int i = n - 1; i >= 0; i--)
+  printf("===LISTA DE ALUNOS===\n");
+  for (int i = 0; i < studentQuantity; i++)
   {
-    printf("%d\n", valores[i]);
+    printf("%s\n", students[i]);
   }
 }

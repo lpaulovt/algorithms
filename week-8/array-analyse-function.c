@@ -9,7 +9,7 @@ void read(int values[], int n)
   }
 }
 
-void printArray(int values[], int number, int searchNumber)
+void analyse(int values[], int number, int searchNumber)
 {
   printf("Informe o número para buscar:\n");
   scanf("%d", &searchNumber);
@@ -28,5 +28,5 @@ int main()
 {
   int values[4], searchNumber;
   read(values, 4);
-  printArray(values, 4, searchNumber);
+  analyse(values, 4, searchNumber);
 }

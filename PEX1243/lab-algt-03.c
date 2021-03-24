@@ -1,5 +1,5 @@
 /* Aluno: 
-   Paulo Vitor Lopes da Silva - Matrícula: 2020010310 - email: paulo.silva06497@alunos.ufersa.edu.br
+   Paulo Vitor Lopes da Silva - email: paulo.silva06497@alunos.ufersa.edu.br
  */
 
 #include <stdio.h>

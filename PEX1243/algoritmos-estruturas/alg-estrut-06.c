@@ -84,6 +84,7 @@ int main()
 {
   int isRunProgram;
   estrut_aluno aluno;
+  header();
   menu();
   scanf("%d", &isRunProgram);
 
